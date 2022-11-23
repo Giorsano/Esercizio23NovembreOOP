@@ -72,10 +72,10 @@ public class ContoCorrente {
 
     }
 
-    public String toString(String a){
-        a = "Il conto corrente è intestato a: " + nomeIntestario + " " + cognomeIntestatario + "\n" +
-                "Età intestatario: " + età
-                + "la lista dei movimenti è: " + listaMovimenti;
+    public String toString() {
+        String a = "Il conto è intestato a: " + this.nomeIntestario + " " + this.cognomeIntestatario + "\n" +
+                "Età dell'intestatario: " + this.età + "\n" +
+                "Lista movimenti: " + this.listaMovimenti;
         return a;
     }
 
